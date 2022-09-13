@@ -1,5 +1,5 @@
 import { DarkModeBtn } from "../components/DarkModeBtn";
-import { IProps } from "../utils/types";
+import { IProps } from "../utils/models";
 
 export function Layout({ children }: IProps) {
   return (
