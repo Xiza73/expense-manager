@@ -1,32 +1,19 @@
-import {
-  HTMLInputTypeAttribute,
-  ReactElement
-}
+import { HTMLInputTypeAttribute, ReactElement } from "react";
 
-from "react";
-
-export type IProps= {
+export type IProps = {
   children: ReactElement;
-}
+};
 
-;
-
-export type FormField= {
+export type FormField = {
   label?: {
     name: string;
     for: string;
-  }
-
-  ;
+  };
 
   input: {
     type: HTMLInputTypeAttribute;
     name: string;
     placeholder?: string;
     required?: boolean;
-  }
-
-  ;
-}
-
-;
+  };
+};

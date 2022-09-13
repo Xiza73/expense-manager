@@ -14,7 +14,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 
-//Errors
+// Errors
 
 export const errorHandler = (code: string) => {
   switch (code) {

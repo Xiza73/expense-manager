@@ -1,6 +1,6 @@
 import { Navigate } from "react-router-dom";
 import { useAuth } from "../context/auth/authContext";
-import { IProps } from "../utils/types";
+import { IProps } from "../utils/models";
 
 export function ProtectedRoute({ children }: IProps) {
   const { user, loading } = useAuth();
